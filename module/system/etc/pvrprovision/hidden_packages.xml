@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<hidden-packages>
+    <!-- We MUST keep this even though there is no item,otherwise this country will be handled as a common config -->
+    <country countryCode="CN">
+
+    </country>
+    <!-- Countrycodes that not configured in this file are all handled as common config-->
+    <country countryCode="common">
+    </country>
+</hidden-packages>

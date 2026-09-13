@@ -1,0 +1,6 @@
+id=picoextrafunctionalities
+name=Pico External Functionalities
+version=1.0.0
+versionCode=1
+author=thoricelli
+description=Unlocks business features for your device. (basically sets `ro.pxr.externalfunc` to 1)

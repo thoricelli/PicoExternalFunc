@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<pxrprovision_disablepackages version="1">
+<!-- DEFAULT DISABLE LIST : /system/etc/pvrprovision/disablepackageslist_default.xml -->
+<!-- Disable packages according to product, countrycode and edition. -->
+<!-- You need to ensure that the format is correct. -->
+    <product name="NEO3">
+        <countrycode name="default" >
+            <edition name="TOB" >
+            </edition>
+            <edition name="TOC" >
+                <package name="com.picovr.enterpriseassistant" />
+                <package name="com.pvr.tobhome" />
+                <package name="com.pvr.tobservice" />
+                <package name="com.picovr.tobvrusercenter" />
+                <package name="com.picoxr.tobstore" />
+                <package name="com.picoxr.tobmdm" />
+            </edition>
+        </countrycode>
+    </product>
+    <product name="PHX">
+        <countrycode name="default" >
+            <edition name="TOB" >
+            </edition>
+            <edition name="TOC" >
+                <package name="com.picovr.enterpriseassistant" />
+                <package name="com.pvr.tobhome" />
+                <package name="com.pvr.tobservice" />
+                <package name="com.picovr.tobvrusercenter" />
+                <package name="com.picovr.PicoEyeTracking" />
+                <package name="com.picoxr.tobstore" />
+                <package name="com.picoxr.tobmdm" />
+                <package name="com.tobii.tobiiblinkdemo" />
+                <package name="com.tobii.usercalibration.neo3" />
+                <package name="com.bytedance.pico.tob.userservice" />
+                <package name="com.picoxr.bstreamassistant" />
+                <package name="com.pvr.assistanthmd" />
+            </edition>
+        </countrycode>
+    </product>
+    <product name="PHXPRO">
+        <countrycode name="default" >
+            <edition name="TOB" >
+            </edition>
+            <edition name="TOC" >
+                <package name="com.picovr.enterpriseassistant" />
+                <package name="com.pvr.tobhome" />
+                <package name="com.pvr.tobservice" />
+                <package name="com.picovr.tobvrusercenter" />
+                <package name="com.picoxr.tobstore" />
+                <package name="com.picoxr.tobmdm" />
+                <package name="com.tobii.tobiiblinkdemo" />
+                <package name="com.tobii.usercalibration.neo3" />
+                <package name="com.bytedance.pico.tob.userservice" />
+                <package name="com.picoxr.bstreamassistant" />
+                <package name="com.pvr.assistanthmd" />
+            </edition>
+        </countrycode>
+    </product>
+</pxrprovision_disablepackages>

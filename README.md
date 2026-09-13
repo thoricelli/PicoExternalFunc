@@ -1,7 +1,7 @@
 # ExternalFunc
 
 A simple Magisk module that enables the property: `ro.pxr.externalfunc`.  
-This property determines if the device is a business device, and disables/enables functionality based on that property on your device.
+PICO uses this property to determine if your device is a business device, and will disable or enabled features on your device depending on its value.
 
 You will not be able to log in with a normal account anymore and you will be forced to sign in with a normal account.  
 
